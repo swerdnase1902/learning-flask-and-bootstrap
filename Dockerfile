@@ -1,6 +1,6 @@
 # Build and run:
 #   docker build -t flask_bootstrap -f Dockerfile .
-#   docker run -d --cap-add sys_ptrace -p 2222:22 -p 5000:5000 -v "$(pwd):/project" --name flask_bootstrap flask_bootstrap
+#   docker run -d --cap-add sys_ptrace -p 2223:22 -p 5001:5001 -v "$(pwd):/project" --name flask_bootstrap flask_bootstrap
 #   docker start flask_bootstrap
 #   docker exec -it flask_bootstrap bash
 #   ssh-keygen -f "$HOME/.ssh/known_hosts" -R "[localhost]:2222"
